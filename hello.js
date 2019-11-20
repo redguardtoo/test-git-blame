@@ -3,4 +3,4 @@ function doit(info) {
 }
 
 
-doit({bad: 'destroy world', good: 'hello world'});
+doit({bad: 'destroy world', good: 'hello world', neutral: 'say hi',});
