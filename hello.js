@@ -2,4 +2,4 @@ function doit(info) {
   console.log(info);
 }
 
-doit({});
+doit({bad: 'destroy world'});
