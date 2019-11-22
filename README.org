@@ -1,0 +1,11 @@
+* General
+Use this project to test =git blame=
+
+Three commits "bad", "good", "neutral" change the same line (line 6) in =hello.js=.
+
+Then rename =hello.js= to =hello1.js= and line 6 is changed.
+
+Then rename =hello1.js= to =hello.js= and line 6 is changed.
+
+* Usage
+Run =git --no-pager blame -C -M -w -L 6,+1 --no-merges --porcelain -- hello.js= to display commit on line 6.
